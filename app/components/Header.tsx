@@ -5,12 +5,12 @@ export default function Header() {
     <header className="relative w-full min-h-screen bg-pucc-ink text-pucc-cream overflow-hidden">
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-16 text-center">
         <Image
-          src="/logo/logo_pink.png"
+          src="/logo/Logo_Yellow.png"
           alt="PUCC"
           width={1024}
           height={1024}
           priority
-          className="mb-8 h-20 w-20 object-contain"
+          className="mb-4 h-28 w-28 object-contain"
         />
         <span className="block h-px w-10 bg-pucc-gold" aria-hidden />
         <p className="mt-6 text-[11px] font-medium uppercase tracking-[0.32em] text-pucc-gold">
