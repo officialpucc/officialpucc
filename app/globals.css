@@ -154,6 +154,11 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 2px;
 }
+@media (max-width: 640px) {
+  .def-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 .def-card {
   padding: 44px 36px;
