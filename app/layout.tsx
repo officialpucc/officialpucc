@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Manrope, DM_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import ScrollProgress from "./components/motion/ScrollProgress";
 import "./globals.css";
 
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-sans">
         <ScrollProgress />
         {children}
+        <Analytics />
       </body>
     </html>
   );
