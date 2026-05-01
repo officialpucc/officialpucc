@@ -163,7 +163,7 @@ body {
   position: absolute;
   border-radius: 50%;
   background: var(--cream);
-  box-shadow: 0 0 4px 1px rgba(253, 247, 227, 0.45);
+  box-shadow: 0 0 6px 1.5px rgba(253, 247, 227, 0.7);
   opacity: 0;
   animation-name: pucc-sparkle;
   animation-iteration-count: infinite;
@@ -172,7 +172,7 @@ body {
 }
 @keyframes pucc-sparkle {
   0%, 100% { opacity: 0; transform: scale(0.4); }
-  50%      { opacity: 0.7; transform: scale(1); }
+  50%      { opacity: 0.9; transform: scale(1); }
 }
 @media (prefers-reduced-motion: reduce) {
   .sparkles { display: none; }

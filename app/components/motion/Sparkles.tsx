@@ -16,7 +16,7 @@ type Props = {
   className?: string;
 };
 
-export default function Sparkles({ count = 22, className = "" }: Props) {
+export default function Sparkles({ count = 30, className = "" }: Props) {
   const [sparks, setSparks] = useState<Spark[]>([]);
 
   useEffect(() => {
