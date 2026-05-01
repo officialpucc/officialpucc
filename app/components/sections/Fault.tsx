@@ -1,4 +1,4 @@
-import Reveal from "./Reveal";
+import Reveal from "../motion/Reveal";
 
 export default function Fault() {
   return (

@@ -1,18 +1,15 @@
-import Reveal from "./Reveal";
+import Reveal from "../motion/Reveal";
+import Sparkles from "../motion/Sparkles";
+import FooterHeadline from "./FooterHeadline";
 
 export default function FooterCTA() {
   return (
     <section className="footer-cta">
+      <Sparkles />
       <Reveal className="section-label" as="p">
         You&rsquo;re still here
       </Reveal>
-      <Reveal className="footer-headline" as="h2">
-        Get a pucc.
-        <br />
-        Give a pucc.
-        <br />
-        <em>Build presence.</em>
-      </Reveal>
+      <FooterHeadline />
       <Reveal className="footer-links">
         <a
           href="https://instagram.com/officialpucc"

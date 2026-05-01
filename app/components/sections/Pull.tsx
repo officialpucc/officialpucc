@@ -1,9 +1,9 @@
-import Reveal from "./Reveal";
+import Reveal from "../motion/Reveal";
 
 export default function Pull() {
   return (
     <section className="pull">
-      <Reveal className="pull-quote" as="p">
+      <Reveal className="pull-quote" as="p" variant="blur-in">
         &ldquo;Phones give more dopamine than a slot machine.
         <br />
         It&rsquo;s not that they <strong>don&rsquo;t care.</strong>

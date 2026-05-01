@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Manrope, DM_Mono } from "next/font/google";
+import ScrollProgress from "./components/motion/ScrollProgress";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -34,7 +35,10 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${manrope.variable} ${dmMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+      <body className="min-h-full flex flex-col font-sans">
+        <ScrollProgress />
+        {children}
+      </body>
     </html>
   );
 }

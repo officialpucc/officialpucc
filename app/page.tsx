@@ -1,11 +1,11 @@
-import Header from "./components/Header";
-import HandedThis from "./components/HandedThis";
-import NFS from "./components/NFS";
-import How from "./components/How";
-import Defs from "./components/Defs";
-import Pull from "./components/Pull";
-import Fault from "./components/Fault";
-import FooterCTA from "./components/FooterCTA";
+import Header from "./components/sections/Header";
+import HandedThis from "./components/sections/HandedThis";
+import NFS from "./components/sections/NFS";
+import How from "./components/sections/How";
+import Defs from "./components/sections/Defs";
+import Pull from "./components/sections/Pull";
+import Fault from "./components/sections/Fault";
+import FooterCTA from "./components/sections/FooterCTA";
 
 export default function Home() {
   return (
