@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="hero relative w-full min-h-screen bg-pucc-ink text-pucc-cream overflow-hidden">
       <Sparkles />
-      <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-5 py-10 text-center sm:px-6 sm:py-16">
+      <div className="mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-start px-5 pt-20 pb-10 text-center sm:justify-center sm:px-6 sm:py-16">
         <Image
           src="/logo/Logo_Yellow.png"
           alt="PUCC"
